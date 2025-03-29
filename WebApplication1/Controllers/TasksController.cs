@@ -1,9 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Models;
 
 namespace WebApplication1.Controllers;
 
-public class TasksController : Controller
-{
     [Route("api/[controller]")]
     [ApiController]
     public class TasksController : ControllerBase
