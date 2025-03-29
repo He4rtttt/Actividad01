@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "E:\\semestre 5\\Nueva carpeta\\Actividad01\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "E:\\semestre 5\\Nueva carpeta\\Actividad01\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "E:\\semestre 5\\Nueva carpeta\\Actividad01\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\Usuario\\RiderProjects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "E:\\semestre 5\\Nueva carpeta\\Actividad01\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\RiderProjects\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "E:\\semestre 5\\Nueva carpeta\\Actividad01\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\Usuario\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
