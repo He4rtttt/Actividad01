@@ -19,4 +19,22 @@ namespace WebApplication1.Controllers;
         {
             return Ok(tasks);
         }
+        // GET /tasks/{id}
+        [HttpGet("{id}")]
+        public ActionResult<TaskItem> GetTask(int id)
+        {
+            var task = tasks.FirstOrDefault(t => t.Id == id);
+            if (task == null) return NotFound(new { message = "Tarea no encontrada" });
+            return Ok(task);
+        }
+
+        // POST /tasks
+        [HttpPost]
+        public ActionResult<TaskItem> CreateTask(TaskItem task)
+        {
+            task.Id = tasks.Count > 0 ? tasks.Max(t => t.Id) + 1 : 1;
+            tasks.Add(task);
+            return CreatedAtAction(nameof(GetTask), new { id = task.Id }, task);
+        }
+
 }
