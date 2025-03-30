@@ -36,5 +36,27 @@ namespace WebApplication1.Controllers;
             tasks.Add(task);
             return CreatedAtAction(nameof(GetTask), new { id = task.Id }, task);
         }
+        // PUT /tasks/{id}
+        [HttpPut("{id}")]
+        public ActionResult UpdateTask(int id, TaskItem updatedTask)
+        {
+            var task = tasks.FirstOrDefault(t => t.Id == id);
+            if (task == null) return NotFound(new { message = "Tarea no encontrada" });
 
-}
+            task.Title = updatedTask.Title;
+            task.Status = updatedTask.Status;
+            return NoContent();
+        }
+
+        // DELETE /tasks/{id}
+        [HttpDelete("{id}")]
+        public ActionResult DeleteTask(int id)
+        {
+            var task = tasks.FirstOrDefault(t => t.Id == id);
+            if (task == null) return NotFound(new { message = "Tarea no encontrada" });
+
+            tasks.Remove(task);
+            return NoContent();
+
+        }
+    }
