@@ -425,19 +425,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\ELSA LLICA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\practicaNet\\Actividad01\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\ELSA LLICA\\RiderProjects\\Actividad01\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\practicaNet\\Actividad01\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\practicaNet\\Actividad01\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\ELSA LLICA\\RiderProjects\\Actividad01\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\ELSA LLICA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ELSA LLICA\\RiderProjects\\Actividad01\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ELSA LLICA\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -490,7 +490,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Usuario\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\ELSA LLICA\\.dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

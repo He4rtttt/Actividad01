@@ -8,6 +8,7 @@ namespace WebApplication1.Controllers;
     public class TasksController : ControllerBase
     {
         private static List<TaskItem> tasks = new List<TaskItem>
+        //TASK DE OPCIONES
         {
             new TaskItem { Id = 1, Title = "Hacer la compra", Status = "Pendiente" },
             new TaskItem { Id = 2, Title = "Estudiar .NET", Status = "Completada" }
